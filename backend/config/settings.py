@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = ['http://localhost:3000',
-                        'http://127.0.0.1:3000', 'https://frontend-synamatic.herokuapp.com/']
+                        'http://127.0.0.1:3000', 'https://frontend-synamatic.herokuapp.com']
 
 # Application definition
 
