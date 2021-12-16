@@ -24,14 +24,14 @@ const Category = () => {
             .catch(error => {
                 alert('Failed to connect API: /movies/');
             });
-        api.getMovies({ category_id: '3' })
+        api.getMovies({ category_id: '2' })
             .then(movies => {
                 setCategoryDrama(movies);
             })
             .catch(error => {
                 alert('Failed to connect API: /movies/');
             });
-        api.getMovies({ category_id: '2' })
+        api.getMovies({ category_id: '3' })
             .then(movies => {
                 setCategoryHorror(movies);
             })
