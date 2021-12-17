@@ -23,10 +23,10 @@ const Header = () => {
             <header>
                 <div class="navbar row spacer">
                     <MenuIcon />
-                    {/* <img src={ImgLogo} class="sp-logo" onClick={() => dispatch(push('/'))} alt="" /> */}
+                    <img src={ImgLogo} class="sp-logo" onClick={() => dispatch(push('/'))} alt="" />
                     <Search />
                     <div class="logo">
-                        <img src={ImgLogo} alt="" class="logoimg" onClick={() => dispatch(push('/'))} />
+                        {/* <img src={ImgLogo} alt="" class="logoimg" onClick={() => dispatch(push('/'))} /> */}
                     </div>
                     <div class="smenu row">
                         <form onSubmit={submitAction} class="searcharea">
