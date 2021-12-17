@@ -70,21 +70,6 @@ a {
     }
 }
 
-@media screen and (max-width: 1027px) {
-    .cover .backgroundcover {
-        width: 100%;
-        height: 46vh;
-        object-fit: cover;
-    }
-    .cover .gradient {
-        background: linear-gradient(rgb(41, 40, 40, 0.6) 10%, rgb(0, 0, 0, 0) 50%, rgb(41, 40, 40));
-        position: absolute;
-        height: 46%;
-        width: 100%;
-        z-index: 2;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .grid {
         display: grid;
@@ -235,6 +220,22 @@ Cover
 .cover .gradient .coverdetails .cover-description {
     color: rgb(224, 224, 224, 0.8);
 }
+
+@media screen and (max-width: 1027px) {
+    .cover .backgroundcover {
+        width: 100%;
+        height: 46vh;
+        object-fit: cover;
+    }
+    .cover .gradient {
+        background: linear-gradient(rgb(41, 40, 40, 0.6) 10%, rgb(0, 0, 0, 0) 50%, rgb(41, 40, 40));
+        position: absolute;
+        height: 46%;
+        width: 100%;
+        z-index: 2;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .cover {
         height: 105vh;
