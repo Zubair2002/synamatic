@@ -285,6 +285,8 @@ Cover
     }
 }
 
+
+
 @media screen and (max-width: 360px) {
     .cover .gradient .coverdetails {
         top: 72vh;
@@ -316,6 +318,18 @@ Cover
         font-size: 20px;
         margin: 0;
         margin-top: -13px;
+    }
+    .cover .gradient .coverdetails {
+        top: 74vh;
+    }
+    .cover {
+        width: 107%;
+    }
+    .cover .gradient {
+        background: linear-gradient(rgba(41, 40, 40, 0.6) 10%, transparent 50%, #292828);
+        position: absolute;
+        width: 107%;
+        z-index: 2;
     }
 }
 
