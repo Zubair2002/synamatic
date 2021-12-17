@@ -221,7 +221,7 @@ Cover
     color: rgb(224, 224, 224, 0.8);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1367px) {
     .cover .backgroundcover {
         width: 100%;
         height: 46vh;
@@ -360,4 +360,10 @@ Popupbox
     width: 100%;
     height: 30%;
     background: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 1));
+}
+
+@media screen and (max-width: 500x) {
+    p {
+        font-size: 11px;
+    }
 }
