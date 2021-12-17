@@ -221,7 +221,7 @@ Cover
     color: rgb(224, 224, 224, 0.8);
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1367px) {
+@media screen and (max-width: 1024px) and (max-width: 1367px) {
     .cover .backgroundcover {
         width: 100%;
         height: 46vh;
