@@ -45,7 +45,7 @@ const Category = () => {
             <section class="content">
                 <div class="pt">
                     <h1 id="actions" class="section-heading m20 p10">
-                        Actions
+                        Action
                     </h1>
                 </div>
                 {categoryAction && categoryAction.results.length > 0 ? (
