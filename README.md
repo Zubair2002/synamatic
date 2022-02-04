@@ -3,6 +3,9 @@
 Movie Review App, with a frontend built in React & Redux and a backend built in Django API.
 ```
 Check out [FRONTEND LIVE DEMO](https://frontend-synamatic.herokuapp.com/) here!!
+
+<img src="https://github.com/Zubair2002/synamatic/blob/master/frontend/public/symantic%20front.png" width= "1500" height="1000" />
+                                                                                                                              
 Check out [API LIVE DEMO](https://backend-synamatic.herokuapp.com/) here!!
 ## Tech used
 ```
